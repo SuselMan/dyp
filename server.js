@@ -23,6 +23,7 @@ const server = http.createServer((req, res) => {
     '.css':  'text/css',
     '.json': 'application/json',
     '.png':  'image/png',
+    '.iso':  'image/ico',
     '.jpg':  'image/jpeg',
     '.gif':  'image/gif',
     '.svg':  'image/svg+xml',
