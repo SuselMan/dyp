@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const port = 3000; // порт, можно выбрать любой свободный
+const port = 80; // порт, можно выбрать любой свободный
 
 const server = http.createServer((req, res) => {
   // Определим путь к файлу
